@@ -1,0 +1,51 @@
+.friendList {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.friendCard {
+  border: 2px solid #000;
+  border-radius: 12px;
+  width: 140px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+}
+
+.friendCard:hover {
+  transform: translateY(-4px);
+}
+
+.friendAvatar {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.friendName {
+  font-size: 28px;
+  font-weight: regular;
+  color: #000;
+  text-align: center;
+  margin: 10px 0 6px;
+}
+
+.friendStatus {
+  font-size: 22px;
+  text-align: center;
+  font-weight: regular;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
